@@ -1,6 +1,20 @@
-.prep-time { 
+.breakfast-easy-fix {
     text-decoration: underline;
+  }
+.subscribe-button {
+background-color: rgb(150, 59, 105);
+color: azure; border: none;
+height: 30px; 
+width: 105px;
+border-radius: 2px;
+cursor: pointer;
+transition: 300ms;
+} 
 
+.subscribe-button:hover {
+    background-color: #999;
+}
 
-
+.subscribe-button:active {
+    opacity: 0.5;
 }
