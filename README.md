@@ -1,3 +1,3 @@
 # Fitness-web-page
 
-xdhchgsctjsexdhtscd
+This is a fitness page to demonstarte my html and css 
