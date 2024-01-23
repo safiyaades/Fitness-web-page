@@ -4,13 +4,22 @@
     margin-right:auto;
     height: 350px;
 }
-.Title {
+
+.title {
 text-align: center;
 font-weight: bold;
 }
-.breakfast-easy-fix {
+
+.headings {
     text-decoration: underline;
+    text-align: center;
   }
+  
+  .ordered_list {
+    text-align: center;
+    list-style-position:inside
+  }
+
 .subscribe-button {
 background-color: rgb(150, 59, 105);
 color: azure; border: none;
