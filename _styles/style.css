@@ -1,40 +1,48 @@
-.Mealprep {
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    height: 350px;
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.meal-prep {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
 }
 
 .title {
-text-align: center;
-font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 .headings {
-    text-decoration: underline;
-    text-align: center;
-  }
-  
-  .ordered_list {
-    text-align: center;
-    list-style-position:inside
-  }
+  text-decoration: underline;
+  text-align: center;
+}
+
+.ordered-list {
+  text-align: center;
+  list-style-position: inside;
+}
 
 .subscribe-button {
-background-color: rgb(150, 59, 105);
-color: azure; border: none;
-height: 30px; 
-width: 105px;
-border-radius: 2px;
-cursor: pointer;
-transition: 300ms;
-} 
+  background-color: rgb(150, 59, 105);
+  color: azure;
+  border: none;
+  height: 30px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 300ms;
+}
 
 .subscribe-button:hover {
-    background-color: #da9cbc;
-    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15)
+  background-color: #da9cbc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .subscribe-button:active {
-    opacity: 0.5;
+  opacity: 0.5;
 }
